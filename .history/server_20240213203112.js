@@ -15,8 +15,3 @@ app.post('/process-image', (req, res) => {
     }
     
     /* Additional processing logic can be added here, such as saving the image */
-});
-
-app.listen(port, () => {
-    console.log(`Server is listening on port ${port}`);
-});

@@ -13,10 +13,5 @@ app.post('/process-image', (req, res) => {
         res.status(400).json({ success: false, message: 'No image data received.' });
         return;
     }
-    
-    /* Additional processing logic can be added here, such as saving the image */
-});
 
-app.listen(port, () => {
-    console.log(`Server is listening on port ${port}`);
-});
+    // Additional processing logic can be added here, such as saving the image
